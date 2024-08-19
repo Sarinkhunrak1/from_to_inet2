@@ -2,7 +2,7 @@
 
     require_once('dbconfig.php');
 
-    $db = new Database('localhost','pages','root','');
+    $db = new Database('localhost','components','root','');
 
     if ($_SERVER['REQUEST_METHOD'] == "GET") {
         echo json_encode($db->query('SELECT * From pages'));
