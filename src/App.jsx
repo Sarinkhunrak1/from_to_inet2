@@ -5,8 +5,8 @@ import {
   Routes,
 } from "react-router-dom";
 import Home from "./components/pages/Home";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-toastify/dist/ReactToastify.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'react-toastify/dist/ReactToastify.css';
 
 
 
